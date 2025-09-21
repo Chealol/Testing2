@@ -1,0 +1,7 @@
+paths:
+  root: /content/drive/MyDrive/nfl-win-transformer
+  raw:  /content/drive/MyDrive/nfl-win-transformer/data/raw
+  interim: /content/drive/MyDrive/nfl-win-transformer/data/interim
+  processed: /content/drive/MyDrive/nfl-win-transformer/data/processed
+  models: /content/drive/MyDrive/nfl-win-transformer/models/winpred
+  exps: /content/drive/MyDrive/nfl-win-transformer/experiments/winpred

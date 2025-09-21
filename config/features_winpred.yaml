@@ -1,0 +1,29 @@
+# Section B feature switches
+features:
+  # team offense (rolled)
+  off_epa_l4_mean: true
+  off_success_l4_mean: true
+  off_pass_rate_l4_mean: true
+  off_ed_pass_rate_l4_mean: true
+  off_rz_td_rate_l4_mean: true
+
+  # team defense (rolled)
+  def_epa_l4_mean: true
+  def_success_l4_mean: true
+  def_pass_allowed_l4_mean: true
+  def_rz_td_allowed_l4_mean: true
+
+  # discipline / specials
+  off_penalty_rate_l4_mean: true
+  off_penalty_yds_per_play_l4_mean: true
+
+  # long windows + deltas (we'll compute both l4 and l8, then deltas)
+  use_l8_means: true
+  use_deltas_l4_minus_l8: true
+
+  # environment
+  game_env_rest_diff: true
+  game_env_is_div: true
+  game_env_is_prime: true
+  game_env_temp_wind: true
+  game_env_roof_surface_onehots: true
